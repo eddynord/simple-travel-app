@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  height: 704px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  
 }
+
+.header {
+  background-color: #F55A5A ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.card-content {
+  width: 100%;
+  max-width: 500px;
+  padding:20px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 15px;
+  
+}
+.location-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-banner {
+  width: 100%;
+  max-width: 126px;
+  height: 168px;
+  border-radius:5px ;
+}
+
+.card-stats {
+  width: 100%;
+  max-width: 326px;
+  height: 144px;
+  font-size: 0.7rem;
+}
+
+hr {
+  width: 500px;
+  margin: auto;
+  border-top: 0.5px solid rgba(221, 221, 221, 0.178);
+}
+
+a {
+  color: rgb(156, 156, 156);
+}
+  
+  
+  
+
+
+
+
+/* .card-stats p,
+strong {
+  font-size: 12px;
+}  */
+
+  
+
+
